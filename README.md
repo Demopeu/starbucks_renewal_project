@@ -10,6 +10,7 @@
 5. [설계 문서](#5-설계-문서)
 6. [팀원 소개](#6-팀원-소개)
 7. [프로젝트 규칙](#7-프로젝트-규칙)
+8. [포팅 메뉴얼](#8-포팅-메뉴얼)
 
 ## 1. 기획
 
@@ -176,3 +177,38 @@
 ### 3. 브랜치 관리
 - *main*: 항상 배포 가능한 상태를 유지합니다.
 - *develop*: 다음 릴리스에 포함될 기능이 합쳐지는 브랜치입니다.
+
+---
+
+## 8. 포팅 메뉴얼
+
+이 프로젝트는 [Next.js](https://nextjs.org) 프로젝트입니다.
+
+### Getting Started
+
+먼저, 개발 서버를 실행합니다:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+브라우저에서 [http://localhost:3000](http://localhost:3000) 을 열어 결과를 확인하세요.
+
+페이지는 app/page.tsx 파일을 수정하여 편집을 시작할 수 있습니다. 파일을 수정하면 페이지가 자동으로 업데이트됩니다.
+
+이 프로젝트는 [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) 를 사용하여 [Geist](https://vercel.com/font)라는 새로운 글꼴을 자동으로 최적화하고 로드합니다.
+
+## Learn More
+
+Next.js에 대해 더 알아보려면 다음 리소스를 참고하세요:
+
+- [Next.js Documentation](https://nextjs.org/docs) - Next.js 기능 및 API에 대해 배우기
+- [Learn Next.js](https://nextjs.org/learn) - 대화형 Next.js 튜토리얼
+
+[the Next.js GitHub repository](https://github.com/vercel/next.js)도 확인해보세요. 여러분의 피드백과 기여를 환영합니다!
